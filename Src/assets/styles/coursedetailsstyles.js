@@ -15,6 +15,14 @@ export default StyleSheet.create({
     marginLeft: '9%',
     marginTop: '3%',
   },
+  lockIcon:{
+    aspectRatio:1/1,
+    height: undefined,
+    width:30,
+    margin:'1%',
+    marginLeft:'20%',
+    marginTop:'4%'
+  },
   myname: {color: 'black', fontSize: 18, fontWeight: 'bold'},
   icon1: {
     marginLeft: '35%',
@@ -55,7 +63,7 @@ export default StyleSheet.create({
   CourseListView: {
     padding: 13,
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    // justifyContent: 'space-between',
     backgroundColor: '#fff',
     flex: 1,
     alignItems: 'center',
@@ -125,6 +133,17 @@ export default StyleSheet.create({
     textDecorationLine: 'underline',
     textDecorationStyle: 'solid',
   },
+  ToolText1: {
+    fontSize: 16,
+    color: 'green',
+    fontWeight: '600',
+    margin: '1%',
+    fontFamily: fonts.pop_SemiBold,
+    textDecorationStyle: 'solid',
+    position:'absolute',
+    right:15,
+    bottom:25
+  },
   buyNowText: {textAlign: 'center', color: '#fff', fontSize: 18},
   teacher: {
     fontSize: 15,
@@ -140,11 +159,18 @@ export default StyleSheet.create({
     fontFamily: fonts.lato_regular,
   },
   courseText: {
-    fontSize: 16,
+    fontSize: 15,
     color: Colors.grayColor,
+    fontFamily: fonts.lato_bold,
+    // flexShrink: 1,
+    // marginHorizontal: 10,
+  },
+  courseText1: {
+    fontSize: 14,
+    width:'85%',
+    color:'#0A1D56',
+    marginLeft:'3%',
     fontFamily: fonts.lato_regular,
-    flexShrink: 1,
-    marginHorizontal: 10,
   },
   FullCourseText: {
     fontSize: 18,

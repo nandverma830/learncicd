@@ -1,15 +1,19 @@
 [
     {
-        "merged": "com.corehacker.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher.jpg.flat",
-        "source": "com.corehacker.app-main-44:/mipmap-xxxhdpi/ic_launcher.jpg"
+        "merged": "com.corehacker.app-merged_res-42:/drawable-mdpi_src_assets_images_applogo1.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-mdpi/src_assets_images_applogo1.png"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-mdpi_src_assets_images_playbutton.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-mdpi/src_assets_images_playbutton.png"
     },
     {
         "merged": "com.corehacker.app-merged_res-42:/mipmap-xxhdpi_ic_launcher.jpg.flat",
         "source": "com.corehacker.app-main-44:/mipmap-xxhdpi/ic_launcher.jpg"
     },
     {
-        "merged": "com.corehacker.app-merged_res-42:/mipmap-mdpi_ic_launcher_round.jpg.flat",
-        "source": "com.corehacker.app-main-44:/mipmap-mdpi/ic_launcher_round.jpg"
+        "merged": "com.corehacker.app-merged_res-42:/drawable-mdpi_src_assets_images_user.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-mdpi/src_assets_images_user.png"
     },
     {
         "merged": "com.corehacker.app-merged_res-42:/mipmap-hdpi_ic_launcher_round.jpg.flat",
@@ -18,6 +22,34 @@
     {
         "merged": "com.corehacker.app-merged_res-42:/mipmap-hdpi_ic_launcher.jpg.flat",
         "source": "com.corehacker.app-main-44:/mipmap-hdpi/ic_launcher.jpg"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-mdpi_src_assets_images_beardman.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-mdpi/src_assets_images_beardman.png"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/raw_src_assets_images_songs.mp4.flat",
+        "source": "com.corehacker.app-main-44:/raw/src_assets_images_songs.mp4"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher.jpg.flat",
+        "source": "com.corehacker.app-main-44:/mipmap-xxxhdpi/ic_launcher.jpg"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-mdpi_src_assets_images_applogo.jpg.flat",
+        "source": "com.corehacker.app-main-44:/drawable-mdpi/src_assets_images_applogo.jpg"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/mipmap-mdpi_ic_launcher_round.jpg.flat",
+        "source": "com.corehacker.app-main-44:/mipmap-mdpi/ic_launcher_round.jpg"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
         "merged": "com.corehacker.app-merged_res-42:/mipmap-mdpi_ic_launcher.jpg.flat",
@@ -36,15 +68,31 @@
         "source": "com.corehacker.app-main-44:/mipmap-xhdpi/ic_launcher_round.jpg"
     },
     {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
         "merged": "com.corehacker.app-merged_res-42:/mipmap-xxhdpi_ic_launcher_round.jpg.flat",
         "source": "com.corehacker.app-main-44:/mipmap-xxhdpi/ic_launcher_round.jpg"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
         "merged": "com.corehacker.app-merged_res-42:/drawable_rn_edit_text_material.xml.flat",
         "source": "com.corehacker.app-main-44:/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "com.corehacker.app-merged_res-42:/raw_src_assets_images_songs.mp4.flat",
-        "source": "com.corehacker.app-main-44:/raw/src_assets_images_songs.mp4"
+        "merged": "com.corehacker.app-merged_res-42:/drawable-mdpi_src_assets_images_man.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-mdpi/src_assets_images_man.png"
+    },
+    {
+        "merged": "com.corehacker.app-merged_res-42:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.corehacker.app-main-44:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     }
 ]

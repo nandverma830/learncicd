@@ -33,9 +33,9 @@ const App = () => {
       }}>
       {/* {UserLogin ? (
         <> */}
-          <Stack.Screen name="VerifyScreen" component={VerifyScreen} />
+          {/* <Stack.Screen name="VerifyScreen" component={VerifyScreen} />
           <Stack.Screen name="SignupScreen" component={Signup} />
-          <Stack.Screen name="OtpScreen" component={OtpScreen} />
+          <Stack.Screen name="OtpScreen" component={OtpScreen} /> */}
         {/* </>
       ) : (
         <> */}

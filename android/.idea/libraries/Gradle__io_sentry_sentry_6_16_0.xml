@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: io.sentry:sentry:6.16.0">
+  <library name="Gradle: io.sentry:sentry:6.16.0" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.sentry/sentry/6.16.0/90391bde3fbd9ccd633a48d055de3794be364d77/sentry-6.16.0.jar!/" />
     </CLASSES>

@@ -96,13 +96,13 @@ export default function Freecourse({navigation}) {
                 </View>
                 <View style={{flexDirection: 'row'}}>
                   {/* <EvilIcons name={'user'} size={33} color="#000" /> */}
-                  <Image
+                  {/* <Image
                     source={require('../../assets/Images/man.png')}
                     style={{height: 23, width: 23}}
                   />
                   <Text style={homeStyles.freeTeacher} numberOfLines={1}>
                     Teacher : {item.teacher}
-                  </Text>
+                  </Text> */}
                 </View>
                 <View
                   style={{
@@ -111,7 +111,8 @@ export default function Freecourse({navigation}) {
                     borderColor: 'gray',
                   }}>
                   <Text style={homeStyles.videoLength}>
-                    {item.videolength} video / With Tools
+                    {/* {item.videolength}  */}
+                    Full Access /  Tools & Videos & software
                   </Text>
                   <Text style={homeStyles.language}>
                     Language : {item.language}

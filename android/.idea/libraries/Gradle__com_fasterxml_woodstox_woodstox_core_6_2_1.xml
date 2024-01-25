@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.fasterxml.woodstox:woodstox-core:6.2.1">
+  <library name="Gradle: com.fasterxml.woodstox:woodstox-core:6.2.1" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/6.2.1/1600925b1ec7c7a3403c8f068ad62feead13132f/woodstox-core-6.2.1.jar!/" />
     </CLASSES>

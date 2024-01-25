@@ -19,11 +19,12 @@ const App = () => {
     <Tab.Navigator
       tabBarOptions={{
         activeTintColor: '#000',
-        inactiveTintColor:Colors.baseColor,
+        inactiveTintColor: Colors.baseColor,
         labelStyle: {
           fontSize: 13,
           fontFamily: fonts.lato_bold,
         },
+        keyboardHidesTabBar:true
       }}
       screenOptions={{
         headerShown: false,

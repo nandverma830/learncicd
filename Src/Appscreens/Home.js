@@ -208,7 +208,7 @@ const Home = ({navigation}) => {
             Welcome to <Text style={homeStyles.appName}>oLkaro</Text>
           </Text>
         </View>
-        <View
+        {/* <View
           style={{
             flex: 0.1,
             justifyContent: 'center',
@@ -223,7 +223,7 @@ const Home = ({navigation}) => {
               tintColor={Colors.baseColor}
             />
           </TouchableOpacity>
-        </View>
+        </View> */}
 
         <View
           style={{flex: 0.1, justifyContent: 'center', alignItems: 'center'}}>
@@ -333,7 +333,8 @@ const Home = ({navigation}) => {
                         borderColor: 'gray',
                       }}>
                       <Text style={homeStyles.videoLength}>
-                        {item.videolength} video / With Tools
+                        {/* {item.videolength} */}
+                        All Data / All Tools
                       </Text>
                       <Text style={homeStyles.language}>
                         Language : {item.language}
@@ -351,13 +352,13 @@ const Home = ({navigation}) => {
           <View style={homeStyles.YoutubStyle}>
             <Text
               style={[homeStyles.popularText, {color: 'red', marginLeft: 10}]}>
-              All Free Videos
+              All Free Data/Videos
             </Text>
             <View style={{flexDirection: 'row'}}>
               <TouchableOpacity onPress={() => Linking.openURL(TelegramLink)}>
                 <Fontisto
                   name="telegram"
-                  size={37}
+                  size={30}
                   style={{marginRight: 30, margin: 3}}
                   color={Colors.baseColor}
                 />
@@ -366,7 +367,7 @@ const Home = ({navigation}) => {
                 <FontAwesome5
                   name="youtube"
                   style={{marginRight: 19}}
-                  size={40}
+                  size={35}
                   color={'red'}
                 />
               </TouchableOpacity>
@@ -377,15 +378,15 @@ const Home = ({navigation}) => {
                 }>
                 <MaterialCommunityIcons
                   name="instagram"
-                  size={40}
-                  style={{marginRight:6}}
+                  size={35}
+                  style={{marginRight: 6}}
                   color={'#c12c91'}
                 />
               </TouchableOpacity>
             </View>
           </View>
           <View style={homeStyles.popularCourseView}>
-            <Text style={homeStyles.popularText}>Popular Course</Text>
+            <Text style={homeStyles.popularText}>Popular Content</Text>
             <TouchableOpacity onPress={() => Seeall()}>
               <Text style={homeStyles.seeAllText}>See All</Text>
             </TouchableOpacity>
@@ -416,7 +417,7 @@ const Home = ({navigation}) => {
                     {item.coursetitle}
                   </Text>
                   <View style={homeStyles.paiddetails}>
-                    <View style={{flexDirection: 'row', width: '55%'}}>
+                    {/* <View style={{flexDirection: 'row', width: '55%'}}>
                       <Image
                         source={require('../assets/Images/man.png')}
                         style={{height: 23, width: 23}}
@@ -425,7 +426,7 @@ const Home = ({navigation}) => {
                         <Text>Teacher : </Text>
                         {item.teacher}
                       </Text>
-                    </View>
+                    </View> */}
                     {item.price == 0 ? (
                       <View
                         style={{
@@ -449,17 +450,10 @@ const Home = ({navigation}) => {
                         />
                       </View>
                     ) : (
-                      <View
-                        style={{
-                          flexDirection: 'row',
-                          width: '45%',
-                          justifyContent: 'center',
-                          alignItems: 'center',
-                        }}>
+                      <View style={homeStyles.fakePrice_}>
                         <Text style={homeStyles.highprice}>
                           ₹{item.fakeprice}
                         </Text>
-
                         <Text style={homeStyles.coursePrice}>
                           ₹{item.price}
                         </Text>
@@ -474,12 +468,13 @@ const Home = ({navigation}) => {
                   </View>
                   <View style={homeStyles.totalvideoview}>
                     <Text style={homeStyles.totalvideos}>
-                      {item.videolength} videos/With Tools{' '}
+                      {/* {item.videolength} */}
+                      Full Content /All Tools
                     </Text>
-                    <Text style={homeStyles.languagePaid}>
+                    {/* <Text style={homeStyles.languagePaid}>
                       <Text style={{fontWeight: '600'}}>Language : </Text>
                       {item.language}
-                    </Text>
+                    </Text> */}
                   </View>
                 </View>
               </TouchableOpacity>

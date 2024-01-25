@@ -82,7 +82,7 @@ export default function Paidcourse({navigation}) {
                 {item.coursetitle}
               </Text>
               <View style={homeStyles.paiddetails}>
-                <View style={{flexDirection: 'row', width: '55%'}}>
+                {/* <View style={{flexDirection: 'row', width: '55%'}}>
                   <Image
                     source={require('../../assets/Images/man.png')}
                     style={{height: 23, width: 23}}
@@ -91,7 +91,7 @@ export default function Paidcourse({navigation}) {
                     <Text>Teacher : </Text>
                     {item.teacher}
                   </Text>
-                </View>
+                </View> */}
                 {item.price == 0 ? (
                   <View
                     style={{
@@ -119,6 +119,7 @@ export default function Paidcourse({navigation}) {
                     style={{
                       flexDirection: 'row',
                       width: '45%',
+                      marginLeft:'6%',
                       justifyContent: 'center',
                       alignItems: 'center',
                     }}>
@@ -136,12 +137,13 @@ export default function Paidcourse({navigation}) {
               </View>
               <View style={homeStyles.totalvideoview}>
                 <Text style={homeStyles.totalvideos}>
-                  {item.videolength} videos / With Tools{' '}
+                  {/* {item.videolength} */}
+                   Full Content / All Tools{' '}
                 </Text>
-                <Text style={homeStyles.languagePaid}>
+                {/* <Text style={homeStyles.languagePaid}>
                   <Text style={{fontWeight: '600'}}>Language : </Text>
                   {item.language}
-                </Text>
+                </Text> */}
               </View>
             </View>
           </TouchableOpacity>

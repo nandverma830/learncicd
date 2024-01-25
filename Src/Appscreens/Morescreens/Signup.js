@@ -16,14 +16,14 @@ const Resistration = ({navigation}) => {
         navigation={navigation}
         Tittle="CONNECT & HELP"
       />
-      <TouchableOpacity onPress={() => Linking.openURL('mailto:olkaro1313@gmail.com') }  title="olkaro1313@gmail.com" style={Styles.View1}>
+      <TouchableOpacity onPress={() => Linking.openURL('mailto:insamree@gmail.com') }  title="insamree@gmail.com" style={Styles.View1}>
         <MaterialCommunityIcons name="email" size={30} color={Colors.baseColor} />
-        <Text style={Styles.Text1}>olkaro1313@gmail.com</Text>
+        <Text style={Styles.Text1}>insamree@gmail.com</Text>
         <AntDesign name="checkcircle" size={20} color={Colors.baseColor} />
       </TouchableOpacity>
       <TouchableOpacity onPress={()=>Linking.openURL("https://telegram.me/share/url?url=<URL>&text=<TEXT>")} style={Styles.View1}>
         <Fontisto name="telegram" size={30} color={Colors.baseColor} />
-        <Text style={Styles.Text1}>Username :-- @hacker1313a</Text>
+        <Text style={Styles.Text1}>Username :-- @hacker1313</Text>
         <AntDesign name="checkcircle" size={20} color={Colors.baseColor} />
       </TouchableOpacity>
       {/* <View style={Styles.View1}>
@@ -31,13 +31,13 @@ const Resistration = ({navigation}) => {
         <Text style={Styles.Text1} onPress={()=>Linking.openURL('https://t.me/black_hat_hacker_all')}>Telegram group </Text>
         <AntDesign name="checkcircle" size={20} color={'#00B1D2FF'} />
       </View> */}
-      <TouchableOpacity onPress={() =>    Linking.openURL('instagram://user?username=olkaro1313')} style={Styles.View1}>
+      <TouchableOpacity onPress={() =>    Linking.openURL('https://www.instagram.com/samree.in?igsh=MXhudGdtbzB1MnlpaQ==')} style={Styles.View1}>
         <MaterialCommunityIcons
           name="instagram"
           size={30}
           color={Colors.baseColor}
         />
-        <Text style={Styles.Text1}>olkaro1313</Text>
+        <Text style={Styles.Text1}>samree.in</Text>
         <AntDesign name="checkcircle" size={20} color={Colors.baseColor} />
       </TouchableOpacity>
     </View>

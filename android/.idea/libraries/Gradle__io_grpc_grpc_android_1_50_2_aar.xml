@@ -1,8 +1,8 @@
 <component name="libraryTable">
-  <library name="Gradle: io.grpc:grpc-android:1.50.2@aar">
+  <library name="Gradle: io.grpc:grpc-android:1.50.2@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9a686a2cacccfd5a96796f57232d9a0a/transformed/jetified-grpc-android-1.50.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9a686a2cacccfd5a96796f57232d9a0a/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/061f9adfb7da4ba28f7d910553ef7b50/transformed/jetified-grpc-android-1.50.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/061f9adfb7da4ba28f7d910553ef7b50/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-android/1.50.2/4b39126c7f60c50bf33866561d83950d11eff1f9/grpc-android-1.50.2-javadoc.jar!/" />

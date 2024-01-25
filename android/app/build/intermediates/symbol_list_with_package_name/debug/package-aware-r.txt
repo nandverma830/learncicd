@@ -1489,6 +1489,8 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable node_modules_reactnavigation_elements_src_assets_backicon
+drawable node_modules_reactnavigation_elements_src_assets_backiconmask
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1512,6 +1514,12 @@ drawable rzp_name_logo
 drawable rzp_poweredby
 drawable rzp_secured_by_bg
 drawable rzp_white_border_black_bg
+drawable src_assets_images_applogo
+drawable src_assets_images_applogo1
+drawable src_assets_images_beardman
+drawable src_assets_images_man
+drawable src_assets_images_playbutton
+drawable src_assets_images_user
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark

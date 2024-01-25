@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.11.1">
+  <library name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.11.1" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.11.1/3e427205246f26dac2d2f2c9ba763cbeb7b919b3/jackson-module-kotlin-2.11.1.jar!/" />
     </CLASSES>

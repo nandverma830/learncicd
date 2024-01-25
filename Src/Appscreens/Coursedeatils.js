@@ -10,6 +10,8 @@ import {
   Alert,
   Share,
   Dimensions,
+  Pressable,
+  Linking,
 } from 'react-native';
 import React, {useEffect, useState} from 'react';
 import Ripple from 'react-native-material-ripple';
@@ -27,7 +29,7 @@ const deviceWidth = Dimensions.get('window').width;
 const deviceHeight = Dimensions.get('window').height;
 const deviceRatio = (deviceWidth + deviceHeight) / 2;
 const dimensions = Dimensions.get('window');
-const imageHeight = Math.round(dimensions.width * 9 / 16);
+const imageHeight = Math.round((dimensions.width * 9) / 16);
 const imageWidth = dimensions.width;
 
 export default function Coursedeatils({navigation, route}) {
@@ -156,8 +158,7 @@ export default function Coursedeatils({navigation, route}) {
               <ImageBackground
                 imageStyle={{borderRadius: 20}}
                 style={{
-                  width:
-                    DetailsImage.length == 1 ?imageWidth-19: 300,
+                  width: DetailsImage.length == 1 ? imageWidth - 19 : 300,
                   height: (deviceRatio * 28) / 100,
                 }}
                 source={{uri: item}}>
@@ -232,11 +233,13 @@ export default function Coursedeatils({navigation, route}) {
                 />
               ) : null}
             </View>
-            <TouchableOpacity
+            {/* <TouchableOpacity
               style={{marginLeft: '5%', margin: '4%'}}
               onPress={() => alert('Coming soon .........')}>
               <Text style={coursedetailsstyles.reviewText}>Reviews </Text>
-            </TouchableOpacity>
+            </TouchableOpacity> */}
+            <Text style={coursedetailsstyles.ToolText1}>Free</Text>
+
             <TouchableOpacity
               onPress={() =>
                 navigation.navigate('Tools', {TOOLS: VIDEOSDATA.tools})
@@ -263,23 +266,41 @@ export default function Coursedeatils({navigation, route}) {
               flexDirection: 'row',
               margin: '3%',
             }}>
-            <Text style={coursedetailsstyles.FullCourseText}>PlayList :</Text>
+            <Text style={coursedetailsstyles.FullCourseText}>FREE DATA :</Text>
           </View>
           <FlatList
             data={videoData}
             renderItem={({item, index}) => (
-              <TouchableOpacity
-                onPress={() => Varification(item)}
+              <View
+                // onPress={() => Varification(item)}
                 style={coursedetailsstyles.CourseListView}>
-                <Image
+                {/* <Image
                   source={require('../assets/Images/play-button.png')}
                   style={{height: 40, width: 40}}
-                />
-                <Text style={coursedetailsstyles.courseText} numberOfLines={2}>
-                  {item.title}
+                /> */}
+                <Text style={coursedetailsstyles.courseText}>
+                  {'Download ->'}
                 </Text>
-                <Text style={coursedetailsstyles.time}>{item.time}</Text>
-              </TouchableOpacity>
+                {PAID != undefined && VIDEOSDATA.price != 0 ? (
+                  <Image
+                    resizeMode="contain"
+                    source={require('../assets/Images/lock.png')}
+                    style={coursedetailsstyles.lockIcon}
+                  />
+                ) : (
+                  <TouchableOpacity
+                    style={{flexDirection: 'row'}}
+                    onPress={() => Linking.canOpenURL(item.title)}>
+                    <Text
+                      style={coursedetailsstyles.courseText1}
+                      // numberOfLines={2}
+                    >
+                      {item.title}
+                    </Text>
+                  </TouchableOpacity>
+                )}
+                {/* <Text style={coursedetailsstyles.time}>{item.time}</Text> */}
+              </View>
             )}
             keyExtractor={(item, index) => index.toString()}
           />

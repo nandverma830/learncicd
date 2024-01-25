@@ -28,10 +28,10 @@ const Wishlist = ({navigation}) => {
   return (
     <View style={{flex: 1, backgroundColor: '#fff'}}>
       <StatusBar backgroundColor={Colors.baseColor} />
-      <Header Tittle="HELP VIDEO" />
+      <Header Tittle="HELP SCREEN" />
       <View style={Styles.lIST}>
-        <Text style={Styles.Txt}>Help Video</Text>
-        <Video
+        <Text style={Styles.Txt}>If any Problem contact :{"\n"}{"\n"}9992150052 {"\n"}9350531673 {"\n"}7988085235 {"\n"} </Text>
+        {/* <Video
           source={{
             uri: HelpVideo,
           }}
@@ -40,7 +40,7 @@ const Wishlist = ({navigation}) => {
           controls={true}
           fullscreen
           style={{height: 200, backgroundColor: '#ccc'}}
-        />
+        /> */}
       </View>
     </View>
   );
@@ -49,7 +49,7 @@ const Wishlist = ({navigation}) => {
 export default Wishlist;
 const Styles = StyleSheet.create({
   lIST: {
-    flex: 0.4,
+    flex: 0.2,
     borderWidth: 1,
     borderColor: Colors.baseColor,
     justifyContent: 'center',

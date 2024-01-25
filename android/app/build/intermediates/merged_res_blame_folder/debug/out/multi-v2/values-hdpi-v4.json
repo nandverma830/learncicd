@@ -4,7 +4,7 @@
             "outputFile": "com.corehacker.app-mergeDebugResources-40:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\91930\\.gradle\\caches\\transforms-3\\db33a893f843df4533261ffc78e9ae84\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\91930\\.gradle\\caches\\transforms-3\\d749bbe313faca952c7cedb9416095b0\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

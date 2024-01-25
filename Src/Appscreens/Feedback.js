@@ -41,35 +41,12 @@ const Feedback = ({navigation}) => {
     const j = Math.floor(Math.random() * (i + 1));
     [allVals[i], allVals[j]] = [allVals[j], allVals[i]];
   }
-  var showtimesAsString = allVals.join(' | ');
-  // console.log('All Feedbacks ===================>', showtimesAsString);
 
   useEffect(() => {
     getDatabase();
     AsyncStorage.getItem('users').then(val => setuserPhone(val));
     // console.log(allVals);
   }, []);
-
-  const Review = [
-    {
-      Reviews: 'This is very helpfull App thanks team',
-    },
-    {
-      Reviews: 'This is very helpfull App thanks team',
-    },
-    {
-      Reviews: 'This is very helpfull App thanks team',
-    },
-    {
-      Reviews: 'This is very helpfull App thanks team',
-    },
-    {
-      Reviews: 'This is very helpfull App thanks team',
-    },
-    {
-      Reviews: 'This is very helpfull App thanks team',
-    },
-  ];
 
   const Save = async () => {
     const Makeid = () => {
@@ -78,27 +55,14 @@ const Feedback = ({navigation}) => {
       )}`;
     };
     const MYID = Makeid();
-    console.log(`USER FEEDBACK ID IS ======> ${MYID}`);
 
-    if (userPhone == null) {
-      Alert.alert('Please Complete Your Profile', '', [
-        {
-          text: 'Go to profile',
-          onPress: () => navigation.navigate('Profile'),
-        },
-        {
-          text: 'Cancel',
-        },
-      ]);
-    } else {
-      database()
-        .ref('/feedbacks/' + MYID)
-        .set(feedback)
-        .then(
-          resp => alert('Thank You For Your Valuable Feedback'),
-          setFeedback(''),
-        );
-    }
+    database()
+      .ref('/feedbacks/' + MYID)
+      .set(feedback)
+      .then(
+        resp => alert('Thank You For Your Valuable Feedback'),
+        setFeedback(''),
+      );
   };
 
   const getDatabase = async () => {
@@ -144,7 +108,7 @@ const Feedback = ({navigation}) => {
       <RefreshControl onRefresh={() => getDatabase()} refreshing={loading}>
         <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
           <ScrollView>
-            <View style={{flex: 0.9, borderStartColor: '#fff'}}>
+            <View style={{borderStartColor: '#fff'}}>
               <TextInput
                 multiline={true}
                 style={{
@@ -188,17 +152,17 @@ const Feedback = ({navigation}) => {
                         USER
                       </Text>
                     </View>
-                      <Text
-                        style={{
-                          color: '#000',
-                          fontSize: 16,
-                          fontWeight: '300',
-                          margin: 1,
-                          marginTop: 10,
-                          fontFamily: fonts.lato_light,
-                        }}>
-                        {item}
-                      </Text>
+                    <Text
+                      style={{
+                        color: '#000',
+                        fontSize: 16,
+                        fontWeight: '300',
+                        margin: 1,
+                        marginTop: 10,
+                        fontFamily: fonts.lato_light,
+                      }}>
+                      {item}
+                    </Text>
                   </View>
                 )}
               />
@@ -250,7 +214,7 @@ const Styles = StyleSheet.create({
     borderBottomWidth: 2,
     borderBottomColor: Colors.baseColor,
     backgroundColor: '#fff',
-    marginTop: '70%',
+    marginTop: '20%',
     borderColor: Colors.baseColor,
   },
 });

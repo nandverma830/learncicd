@@ -4,7 +4,7 @@
             "outputFile": "com.corehacker.app-mergeDebugResources-40:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\91930\\.gradle\\caches\\transforms-3\\f7087557b6c0e5d844555c154d836f37\\transformed\\material-1.1.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\91930\\.gradle\\caches\\transforms-3\\b47a2e6f28392d5911aec8c6f7a5b1c8\\transformed\\material-1.1.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

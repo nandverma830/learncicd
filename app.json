@@ -1,4 +1,10 @@
 {
   "name": "Corehacker",
-  "displayName": "Corehacker"
+  "displayName": "Corehacker",
+  "ios": {
+    "bundleIdentifier": "com.corehacker"
+  },
+  "android": {
+    "package": "com.corehacker"
+  }
 }

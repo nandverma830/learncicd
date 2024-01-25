@@ -21,6 +21,13 @@ export default StyleSheet.create({
     },
     elevation: 6,
   },
+  fakePrice_: {
+    flexDirection: 'row',
+    width: '45%',
+    marginLeft: '6%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   freecourseimage: {
     height: '50%',
     width: '100%',
@@ -96,6 +103,7 @@ export default StyleSheet.create({
     color: '#000000',
     margin: 2,
     marginLeft: 10,
+    marginTop: '4%',
     fontFamily: fonts.pop_light,
   },
   language: {
@@ -113,7 +121,7 @@ export default StyleSheet.create({
   },
   popularText: {
     color: Colors.baseColor,
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: '600',
     fontFamily: fonts.pop_medium,
   },
